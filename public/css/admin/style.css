@@ -1,0 +1,510 @@
+body {
+    background-color: #ddd;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.blur {
+    transition: all .3s;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+}
+
+.modal-custom {
+    z-index: 9999;
+    display: none;
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 40em;
+    margin-top: 70em;
+    padding: 3em;
+}
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .3s;
+}
+
+.btn-close:hover {
+    cursor: pointer;
+}
+
+/* ANCHOR ADMIN */
+.search-default:hover {
+    border: #73a9ad solid 1px;
+}
+
+.search-default::placeholder {
+    color: rgba(112, 112, 112, .6);
+}
+
+.search-default:focus {
+    box-shadow: none;
+    border-color: #73a9ad;
+}
+
+.dropdown-filter-dashboard {
+    font-family: 'Fira Sans', sans-serif;
+    color: #707070;
+    font-size: 10px;
+    font-weight: bold;
+    transition: .3s all;
+    width: 100%;
+    padding: 3px 10px;
+    border: rgba(112, 112, 112, .3) solid 1px;
+    background-color: #fff;
+}
+
+.dropdown-filter-dashboard:hover {
+    cursor: pointer;
+    box-shadow: #73a9ad 0px 2px 2px 0px;
+}
+
+.dropdown-filter-dashboard:active {
+    box-shadow: none;
+}
+
+.dropdown-filter-dashboard:focus {
+    box-shadow: rgba(115, 169, 173, .5) 0px 0px 2px 4px;
+    border: #73a9ad solid 1px;
+}
+
+.dropdown-filter-dashboard-menu {
+    color: #707070;
+    background-color: #fff;
+    transition: all .3s;
+
+}
+
+.dropdown-filter-dashboard-menu-item {
+    transition: all .3s;
+    font-size: 10px;
+}
+
+.dropdown-filter-dashboard-menu-item:hover {
+    cursor: pointer;
+    background-color: #73a9ad;
+    color: #fff;
+}
+
+.search-performansi:hover {
+    border: #73a9ad solid 1px;
+}
+
+.search-performansi::placeholder {
+    color: rgba(112, 112, 112, .6);
+}
+
+.search-performansi:focus {
+    box-shadow: none;
+}
+
+.logo-search {
+    color: #4D4D4D;
+    transition: all .3s;
+}
+
+.logo-search:hover {
+    background-color: #73a9ad;
+    color: #fff;
+    border: #73a9ad solid 1px;
+}
+
+.table-performansi-designer {
+    font-size: 10px;
+}
+
+.table-performansi-designer>thead {
+    background-color: #eff6f6;
+    color: #4D4D4D;
+}
+
+.table-performansi-designer>thead>tr>th:hover {
+    background-color: #73a9ad;
+    color: #fff;
+    transition: .3s all;
+}
+
+.table-performansi-designer>tbody>tr {
+    color: #707070;
+    transition: all .3s;
+}
+
+.table-performansi-designer>tbody>tr:hover {
+    background-color: #73a9ad;
+    color: #fff;
+}
+
+.caption-table {
+    color: #707070;
+}
+
+.alert-data-kosong {
+    font-size: 10px;
+    padding: 8px;
+}
+
+.table-transaksi-terbaru {
+    font-size: 10px;
+}
+
+.table-transaksi-terbaru>thead {
+    background-color: #dfe2ec;
+    color: #4D4D4D;
+}
+
+.table-transaksi-terbaru>thead>tr>th:hover {
+    color: #fff;
+    background-color: #7481ad;
+    transition: all .3s;
+}
+
+.table-transaksi-terbaru>tbody>tr {
+    vertical-align: middle;
+    color: #707070;
+    transition: all .3s;
+}
+
+.table-transaksi-terbaru>tbody>tr:hover {
+    background-color: #7481ad;
+    color: #fff;
+}
+
+.search-transaksi-terbaru:hover {
+    border: #7481ad solid 1px;
+}
+
+.search-transaksi-terbaru::placeholder {
+    color: rgba(112, 112, 112, .6);
+}
+
+.search-transaksi-terbaru:focus {
+    box-shadow: none;
+}
+
+.logo-search-transaksi-terbaru {
+    color: #4D4D4D;
+    transition: all .3s;
+}
+
+.logo-search-transaksi-terbaru:hover {
+    background-color: #7481ad;
+    color: #fff;
+    border: #7481ad solid 1px;
+}
+
+.btn-detail-transaksi-terakhir {
+    text-decoration: none;
+    color: #7481ad;
+    font-size: 8px;
+    border: #7481ad solid 1px;
+    background-color: #fff;
+    padding: 5px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+/* ANCHOR TRANSAKSI */
+.navbar-transaksi {
+    border: transparent;
+    transition: all .3s;
+    color: #707070;
+}
+
+.navbar-transaksi:hover {
+    color: #73a9ad;
+    border-bottom: #73a9ad solid 1px;
+}
+
+.navbar-transaksi-active {
+    color: #73a9ad;
+    border-bottom: #73a9ad solid 1px;
+}
+
+.search-transaksi:hover {
+    border: #73a9ad solid 1px;
+}
+
+.search-transaksi::placeholder {
+    color: rgba(112, 112, 112, .6);
+}
+
+.search-transaksi:focus {
+    box-shadow: none;
+    border-color: #73a9ad;
+}
+
+.table-transaksi {
+    font-size: 10px;
+}
+
+.table-transaksi>thead {
+    background-color: #eff6f6;
+    color: #4D4D4D;
+}
+
+.table-transaksi>thead>tr>th:hover {
+    background-color: #73a9ad;
+    color: #fff;
+    transition: .3s all;
+}
+
+.table-transaksi>tbody>tr {
+    color: #707070;
+    transition: all .3s;
+}
+
+.table-transaksi>tbody>tr:hover {
+    background-color: #73a9ad;
+    color: #fff;
+}
+
+.btn-detail-transaksi {
+    text-decoration: none;
+    color: #73a9ad;
+    font-size: 8px;
+    border: #73a9ad solid 1px;
+    background-color: #fff;
+    padding: 5px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.btn-detail-transaksi:hover {
+    color: #fff;
+    background-color: #598285;
+    border: transparent solid 1px;
+    box-shadow: 0px 2px 2px 0px #4D4D4D;
+}
+
+.btn-detail-transaksi:active {
+    box-shadow: none;
+}
+
+.baris-belum-transfer {
+    background-color: #ffc1c1;
+}
+
+.baris-sedang-dikerjakan {
+    background-color: #dfe2ec;
+}
+
+.pagination-link {
+    font-size: 10px;
+    color: #707070;
+    transition: all .3s;
+}
+
+.pagination-link:hover {
+    border: #73a9ad solid 1px;
+    color: #ffffff;
+    background-color: #73a9ad;
+}
+
+.pagination-link:focus {
+    border: #73a9ad solid 1px;
+    box-shadow: none;
+    color: #fff;
+}
+
+.active-page {
+    border: #73a9ad solid 1px;
+    color: #ffffff;
+    background-color: #73a9ad;
+}
+
+/* ANCHOR DETAIL TRANSAKSI */
+
+input[type] {
+    font-size: 12px;
+}
+
+input[type]:focus {
+    box-shadow: none;
+    font-size: 12px;
+    border: #73a9ad solid 1px;
+}
+
+input[type]::placeholder {
+    color: #bfbfbf;
+}
+
+.select-transaksi {
+    color: #707070;
+    font-weight: bolder;
+    font-size: 12px;
+    transition: all .3s;
+}
+
+.select-transaksi:hover {
+    cursor: pointer;
+    border: #73a9ad solid 1px;
+}
+
+.select-transaksi:focus {
+    box-shadow: none;
+    border: #73a9ad solid 1px;
+}
+
+.btn-submit {
+    border: #73a9ad solid 1px;
+    background-color: #73a9ad;
+    color: #fff;
+    font-weight: bolder;
+    width: 100%;
+    padding: 5px;
+    transition: all .3s;
+}
+
+.btn-submit:hover {
+    background-color: #395e60;
+}
+
+.btn-submit:active {
+    transform: scale(.98);
+}
+
+/* ANCHOR DATA PRODUK */
+.btn-tambah-produk {
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #73a9ad;
+    color: #fff;
+    padding: 7px 10px;
+    width: 100%;
+    transition: all .3s;
+}
+
+.btn-tambah-produk:hover {
+    color: #fff;
+    background-color: #395e60;
+}
+
+.btn-tambah-produk:active {
+    background-color: #4b7d81;
+    border: none;
+}
+
+.btn-hapus {
+    text-decoration: none;
+    color: #E97777;
+    font-size: 8px;
+    font-weight: bold;
+    border: #E97777 solid 1px;
+    background-color: #fff;
+    padding: 4px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.btn-hapus:hover {
+    color: #fff;
+    border: transparent solid 1px;
+    background-color: #E97777;
+    box-shadow: 0px 2px 2px 0px #4D4D4D;
+}
+
+.btn-hapus:active {
+    box-shadow: none;
+}
+
+/* ANCHOR TAMBAH PRODUK */
+
+label.required::after {
+    content: '*';
+    color: red;
+}
+
+/* ANCHOR DATABASE */
+
+#icon-database {
+    font-size: 500%;
+}
+
+.judul-database {
+    font-size: bold;
+}
+
+.menu-database {
+    background-color: #fff;
+    color: #73a9ad;
+    transition: .3s all;
+}
+
+.menu-database:hover {
+    background-color: #73a9ad;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.menu-database:active {
+    transform: scale(1);
+    box-shadow: none;
+}
+
+.btn-tambah {
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #73a9ad;
+    color: #fff;
+    padding: 7px 10px;
+    border: none;
+    transition: all .3s;
+}
+
+.btn-tambah:hover {
+    color: #fff;
+    background-color: #395e60;
+}
+
+.btn-tambah:active {
+    background-color: #4b7d81;
+    border: none;
+}
+
+/* ANCHOR DATABASE ADMIN */
+.table-avatar {
+    width: 2.5em;
+}
+
+.btn-detail {
+    text-decoration: none;
+    color: #73a9ad;
+    font-size: 8px;
+    font-weight: bold;
+    border: #73a9ad solid 1px;
+    background-color: #fff;
+    padding: 5.5px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.btn-detail:hover {
+    color: #fff;
+    border: transparent solid 1px;
+    background-color: #73a9ad;
+    box-shadow: 0px 2px 2px 0px #4D4D4D;
+}
+
+.btn-detail:active {
+    box-shadow: none;
+}
+
+.btn-hapus:disabled {
+    opacity: .5;
+}
+
+.avatar-form {
+    width: 7em;
+}
+
+.input-avatar {
+    width: 20em;
+}

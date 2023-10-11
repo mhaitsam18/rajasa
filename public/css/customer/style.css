@@ -1,0 +1,368 @@
+.navbar-home {
+    background-color: #FFCE00;
+}
+
+.nav-link {
+    margin-left: .1rem;
+    margin-right: .1rem;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    font-size: 14px;
+    transition: all .3s;
+}
+
+.nav-link:hover {
+    background-color: #4C2F00;
+    color: #ffffff;
+}
+
+.nav-link:visited {
+    background-color: #4C2F00;
+    color: #ffffff;
+}
+
+.nav-link:active {
+    background-color: #4C2F00;
+    color: #ffffff;
+}
+
+.search::placeholder {
+    color: #DFE0DF;
+}
+
+
+.bi-search {
+    color: #707070;
+}
+
+.btn-masuk {
+    font-weight: lighter;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #4C2F00;
+    color: #ffffff;
+    width: 7em;
+    padding: 5px 10px;
+    transition: all .3s;
+}
+
+.btn-masuk:hover {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid #4C2F00;
+    color: #4C2F00;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.btn-masuk:active {
+    transform: scale(.9);
+    box-shadow: none;
+}
+
+.name-account {
+    color: #ffffff;
+}
+
+.avatar {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+.dropdown-item:hover {
+    background-color: #4C2F00;
+    color: #ffffff;
+    transition: .3s;
+}
+
+/* ANCHOR FOOTER */
+
+.footer {
+    font-family: 'Comfortaa', cursive;
+    background-color: #4C2F00;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.card-text-footer {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+}
+
+.list-card-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all .3s;
+}
+
+.list-footer {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.list-item-footer {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.list-item-footer:hover,
+.list-card-text:hover {
+    color: #FFCE00;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    background: linear-gradient(45deg,
+            #F3F4F8 45%,
+            #FFCE00 100%);
+}
+
+.text-jumbotron {
+    color: #4C2F00;
+}
+
+.btn-print {
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    background-color: #4C2F00;
+    width: 50%;
+    transition: all .3s;
+}
+
+.btn-print:hover {
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    background-color: #4C2F00;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+/* ANCHOR 👉 CONTENT INDEX */
+
+.content {
+    background-color: #ffffff;
+}
+
+.title-content {
+    color: #4C2F00;
+}
+
+.title-sub-content {
+    color: #707070;
+}
+
+.card-text-sub-content {
+    bottom: 0;
+    width: 100%;
+    color: #4C2F00;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.card-content {
+    border: none;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    transition: all .3s;
+}
+
+.card-content:hover {
+    box-shadow: none;
+    transform: scale(0.99);
+    border: 1px solid #DFE0DF;
+}
+
+.label-jumlah-produk {
+    font-size: 12px;
+}
+
+.label-angka-produk {
+    color: black;
+}
+
+.label-urutkan {
+    font-size: 16px;
+}
+
+
+.btn-urutkan {
+    width: fit-content;
+    font-weight: bold;
+    color: #707070;
+    font-size: 12px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #DFE0DF;
+    transition: all .3s;
+}
+
+.btn-urutkan:focus {
+    border: 1px solid #73a9ad;
+}
+
+.option-urutkan {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #707070;
+}
+
+.option-urutkan:hover {
+    color: #fff;
+    background-color: #73a9ad;
+}
+
+/* ANCHOR CONTENT */
+
+.card-produk {
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+    background-color: #F3F4F8;
+    border: 1px solid #DFE0DF;
+    height: 13rem;
+    transition: all .3s;
+}
+
+.card-produk:hover {
+    box-shadow: none;
+}
+
+.gambar-produk {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+    height: 6rem;
+}
+
+.card-title-harga {
+    color: #4D4D4D;
+}
+
+.card-body-produk {
+    background-color: #fff;
+}
+
+.card-text-produk {
+    font-size: 12px;
+}
+
+.footer-produk {
+    position: absolute;
+    bottom: 5px;
+    font-size: 10pxavatar;
+}
+
+.icon-rating {
+    color: #ffd700;
+}
+
+.alert-produk-kosong {
+    color: #e97777;
+    background-color: #ffc1c1;
+    text-align: center;
+}
+
+/* ANCHOR ABOUT US */
+
+.tagline-about {
+    font-size: 32px;
+    color: #ffd700;
+}
+
+.avatar-tim {
+    height: 100px;
+    background-color: #ffd700;
+
+}
+
+/* ANCHOR DETAIL PRODUK */
+.btn-pesan {
+    border: 0px;
+    width: 100%;
+    background-color: #73a9ad;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: all .3s;
+}
+
+.btn-pesan:hover {
+    background-color: #598285;
+}
+
+/* ANCHOR AKUN */
+.foto-avatar {
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+}
+
+.list-pengaturan-akun {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-akun {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    transition: all .3s;
+}
+
+.list-akun:hover {
+    background-color: #F3F4F8;
+    color: #73a9ad;
+}
+
+.selected-pengaturan-akun {
+    background-color: #F3F4F8;
+    color: #73a9ad;
+}
+
+.list-akun-keluar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    transition: all .3s;
+}
+
+.list-akun-keluar:hover {
+    background-color: #e97777;
+    color: #fff;
+}
+
+.foto {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+}
+
+.btn-save-akun {
+    border: 0px;
+    width: 100%;
+    background-color: #73a9ad;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    transition: .3s all;
+}
+
+.btn-save-akun:hover {
+    background-color: #598285;
+}

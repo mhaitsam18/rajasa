@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #fff;
+}
+
+.tanggal {
+    width: max-content;
+    background-color: #DFE0DF;
+}
+
+.chat {
+    color: #9ea1d4;
+    font-size: 12px;
+    background-color: #edeef7;
+    transition: .3s all;
+}
+
+.chat:hover {
+    color: #edeef7;
+    background-color: #9ea1d4;
+    box-shadow: 0px 2px 2px 0px #4d4d4d;
+}
+
+.chat:active {
+    box-shadow: none;
+}

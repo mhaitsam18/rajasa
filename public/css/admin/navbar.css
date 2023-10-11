@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #fff;
+}
+
+.tanggal {
+    background-color: #DFE0DF;
+}
+
+.export {
+    color: #73a9ad;
+    font-size: 12px;
+    background-color: #dfebec;
+    transition: .3s all;
+}
+
+.export:hover {
+    color: #dfebec;
+    background-color: #73a9ad;
+    box-shadow: 0px 2px 2px 0px #4d4d4d;
+}
+
+.export:active {
+    box-shadow: none;
+}

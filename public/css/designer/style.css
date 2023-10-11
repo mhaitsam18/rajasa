@@ -1,0 +1,212 @@
+body {
+    background-color: #ddd;
+}
+
+.content {
+    background-color: #fff;
+}
+
+/* INPUT TYPE */
+input[type] {
+    font-size: 12px;
+}
+
+input[type]:focus {
+    box-shadow: none;
+    font-size: 12px;
+    border: #9ea1d4 solid 1px;
+}
+
+input[type]::placeholder {
+    color: #bfbfbf;
+}
+
+.select-transaksi {
+    color: #707070;
+    font-weight: bolder;
+    font-size: 12px;
+    transition: all .3s;
+}
+
+.select-transaksi:hover {
+    cursor: pointer;
+    border: #9ea1d4 solid 1px;
+}
+
+.select-transaksi:focus {
+    box-shadow: none;
+    border: #9ea1d4 solid 1px;
+}
+
+.btn-submit {
+    border: #9ea1d4 solid 1px;
+    background-color: #9ea1d4;
+    color: #fff;
+    font-weight: bolder;
+    width: 100%;
+    padding: 5px;
+    transition: all .3s;
+}
+
+.btn-submit:hover {
+    background-color: #7175c1;
+}
+
+.btn-submit:active {
+    transform: scale(.98);
+}
+
+/* ANCHOR DATA PRODUK */
+.navbar-transaksi {
+    border: transparent;
+    transition: all .3s;
+    color: #707070;
+}
+
+.navbar-transaksi:hover {
+    color: #9ea1d4;
+    border-bottom: #9ea1d4 solid 1px;
+}
+
+.navbar-transaksi-active {
+    color: #9ea1d4;
+    border-bottom: #9ea1d4 solid 1px;
+}
+
+.btn-tambah-produk {
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #9ea1d4;
+    color: #fff;
+    padding: 7px 10px;
+    width: 100%;
+    transition: all .3s;
+}
+
+.btn-tambah-produk:hover {
+    color: #fff;
+    background-color: #7175c1;
+}
+
+.btn-tambah-produk:active {
+    background-color: #9598d0;
+    border: none;
+}
+
+.search-default:hover {
+    border: #9ea1d4 solid 1px;
+}
+
+.search-default::placeholder {
+    color: rgba(112, 112, 112, .6);
+}
+
+.search-default:focus {
+    box-shadow: none;
+    border-color: #9ea1d4;
+}
+
+.logo-search {
+    color: #4D4D4D;
+    transition: all .3s;
+}
+
+.logo-search:hover {
+    background-color: #9ea1d4;
+    color: #fff;
+    border: #9ea1d4 solid 1px;
+}
+
+.table-designer {
+    font-size: 10px;
+}
+
+.table-designer>thead {
+    background-color: #eeeef7;
+    color: #4D4D4D;
+}
+
+.table-designer>thead>tr>th:hover {
+    background-color: #9ea1d4;
+    color: #fff;
+    transition: .3s all;
+}
+
+.table-designer>tbody>tr {
+    color: #707070;
+    transition: all .3s;
+}
+
+.table-designer>tbody>tr:hover {
+    background-color: #9ea1d4;
+    color: #fff;
+}
+
+.btn-detail {
+    text-decoration: none;
+    color: #9ea1d4;
+    font-size: 8px;
+    border: #9ea1d4 solid 1px;
+    background-color: #fff;
+    padding: 5px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.btn-detail:hover {
+    color: #fff;
+    background-color: #7175c1;
+    border: transparent solid 1px;
+    box-shadow: 0px 2px 2px 0px #4D4D4D;
+}
+
+.btn-detail:active {
+    box-shadow: none;
+}
+
+.btn-hapus {
+    text-decoration: none;
+    color: #E97777;
+    font-size: 8px;
+    font-weight: bold;
+    border: #E97777 solid 1px;
+    background-color: #fff;
+    padding: 4px 10px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.btn-hapus:hover {
+    color: #fff;
+    border: transparent solid 1px;
+    background-color: #E97777;
+    box-shadow: 0px 2px 2px 0px #4D4D4D;
+}
+
+.btn-hapus:active {
+    box-shadow: none;
+}
+
+.pagination-link {
+    font-size: 10px;
+    color: #707070;
+    transition: all .3s;
+}
+
+.pagination-link:hover {
+    border: #9ea1d4 solid 1px;
+    color: #ffffff;
+    background-color: #9ea1d4;
+}
+
+.pagination-link:focus {
+    border: #9ea1d4 solid 1px;
+    box-shadow: none;
+    color: #fff;
+}
+
+.active-page {
+    border: #9ea1d4 solid 1px;
+    color: #ffffff;
+    background-color: #9ea1d4;
+}

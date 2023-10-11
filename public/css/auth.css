@@ -1,0 +1,122 @@
+.forgot_password {
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFCE00;
+}
+
+.forgot_password:hover {
+    color: #FFA300;
+    transition: .3s all;
+}
+
+.submit {
+    border: 1px solid;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #FFCE00;
+    border-color: #FFCE00;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.submit:hover {
+    background-color: #FFA300;
+    transition: .3s all;
+    color: white;
+    border-color: #FFA300;
+}
+
+.submit:active {
+    background-color: #FFA300;
+    color: white;
+    border-color: #FFA300;
+}
+
+.google {
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid;
+    background-color: white;
+    border-color: #F3F4F8;
+    color: #7D7C83;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.google:hover {
+    background-color: #7D7C83;
+    border-color: #7D7C83;
+    color: white;
+    transition: .3s all;
+}
+
+.google:active {
+    background-color: #7D7C83;
+    border-color: #7D7C83;
+    color: white;
+    transition: .3s;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #FFCE00;
+    transition: .3s all;
+}
+
+.signup {
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFCE00;
+
+}
+
+.signin {
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFCE00;
+
+}
+
+.signup:hover {
+    color: #FFA300;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.logo {
+    background-color: #F3F4F8;
+    height: 100vh;
+}
+
+.blur {
+    height: 50vh;
+    bottom: 0px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.login {
+    /* position: relative; */
+    box-shadow: 4px 0px 30px rgba(0, 0, 0, 0.1);
+    /* height: 100vh; */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}

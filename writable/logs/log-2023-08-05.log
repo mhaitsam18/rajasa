@@ -1,0 +1,88 @@
+ERROR - 2023-08-05 20:16:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\app\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', Array)
+#6 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Customer->index()
+#7 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP ...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\app\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', Array)
+#5 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Customer->index()
+#6 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP ...')
+#10 {main}
+CRITICAL - 2023-08-05 20:16:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP Projects\\Codeigniter 4\\rajasa\\public\\index.php')
+ERROR - 2023-08-05 20:19:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\app\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', Array)
+#6 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Customer->index()
+#7 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP ...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\app\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', Array)
+#5 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Customer->index()
+#6 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Haitsam\PHP Projects\Codeigniter 4\rajasa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP ...')
+#10 {main}
+CRITICAL - 2023-08-05 20:19:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Customer.php(24): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Haitsam\\PHP Projects\\Codeigniter 4\\rajasa\\public\\index.php')
+INFO - 2023-08-05 20:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-05 20:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-05 20:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-05 20:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-05 20:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-05 20:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

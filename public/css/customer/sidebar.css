@@ -1,0 +1,99 @@
+.sidebar {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+/* ANCHOR FILTER */
+
+/* ANCHOR KATEGORI */
+
+.list-filter-kategori {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-kategori {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    transition: all .3s;
+}
+
+.filter-kategori:hover {
+    background-color: #F3F4F8;
+    color: #73a9ad;
+}
+
+.selected-filter-kategori {
+    background-color: #F3F4F8;
+    color: #73a9ad;
+}
+
+.label-filter-kategori {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+
+/* ANCHOR HARGA */
+
+#input-harga-terendah,
+#input-harga-tertinggi {
+    font-size: 12px;
+    color: #707070;
+    box-shadow: none;
+}
+
+#input-harga-terendah:focus,
+#input-harga-tertinggi:focus {
+    border-color: #73a9ad;
+
+}
+
+#input-harga-terendah:hover,
+#input-harga-tertinggi:hover {
+    background-color: #F3F4F8;
+}
+
+#label-harga {
+    color: #707070;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-filter-harga {
+    border: 1px solid #73a9ad;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    padding: 4px 8px;
+    background-color: #73a9ad;
+    transition: all .3s;
+}
+
+.btn-filter-harga:hover {
+    background-color: #fff;
+    color: #73a9ad;
+    border: 1px solid #73a9ad;
+}
+
+.btn-filter-harga:active {
+    transform: scale(.95);
+}
+
+.pagination-link {
+    font-size: 12px;
+    color: #707070;
+    transition: all .3s;
+}
+
+.pagination-link:hover {
+    color: #FFCE00;
+    background-color: #F3F4F8;
+}
+
+.active-page {
+    color: #FFCE00;
+    background-color: #4C2F00;
+}
